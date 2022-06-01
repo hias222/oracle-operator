@@ -1,0 +1,1 @@
+kubectl create secret docker-registry oracrs --docker-server=container-registry.oracle.com --docker-username='xxxx' --docker-password='xxxx' --docker-email='xxx'
