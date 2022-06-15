@@ -1,0 +1,8 @@
+# cert manager
+kubectl apply -f https://github.com/jetstack/cert-manager/releases/latest/download/cert-manager.yaml
+
+# clone git
+git clone https://github.com/oracle/oracle-database-operator.git
+
+# add operator
+kubectl apply -f oracle-database-operator.yaml
